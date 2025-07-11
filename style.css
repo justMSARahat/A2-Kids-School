@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Reset some default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+a{
+    text-decoration: none;;
+}
+li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.max-width{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.btn{
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.btn-primary{
+    background-color: #FEA301;
+}
+.btn-secondary{
+    background-color: black;
+}
+.color-1{
+    color: #FEA301;
+}
+.color-2{
+    color: #01ACFD;
+}
+.color-3{
+    color: #05D4DF;
+}
+.color-4{
+    color: #5D58EF;
+}
+
+/* Header CSS */
+header{
+
+}
+nav{
+    padding-top: 20px;
+}
+.logo{
+
+}
+.logo img{
+    height: 62px;
+    width: 62px;
+}
+.logo h1{
+    font-size:2rem;
+    font-weight: 600;
+    margin-left:10px;
+}
+.navlink{
+    font-size: 1.2rem;
+    margin-left:40px;
+    font-weight: 500;
+}
+
+.content{
+    max-width: 640px;
+}
+.hero-title{
+    font-size: 3.9rem;
+    margin-bottom: 24px;
+}
+.hero-p{
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
