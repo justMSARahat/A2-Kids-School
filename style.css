@@ -490,6 +490,13 @@ footer {
         font-size: 0.5rem;
         border-radius: 40px;
         margin-left: 20px;
+        position: absolute;
+        left: 0;
+        top: 40%;
+    }
+
+    .card-main .btn {
+        top: 49% !important;
     }
 
 
