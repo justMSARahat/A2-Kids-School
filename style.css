@@ -166,3 +166,80 @@ nav{
 .pagination{
     justify-content: center;
 }
+
+.stories{
+    background-image: linear-gradient(to bottom, #fff, rgba(254, 163, 1, 0.3));
+}
+.item-1{
+    grid-area: one;
+}
+.item-2{
+    grid-area: two;
+}
+.item-3{
+    grid-area: three;
+}
+.item-4{
+    grid-area: four;
+}
+.item-5{
+    grid-area: five;
+}
+
+.story-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-template-areas:
+        "one two three"
+        "one four five"
+    ;;
+}
+.story-card{
+    background-color: white;
+    border-radius: 10px;
+    flex: 1;
+}
+.story-card img{
+    border-radius: 10px 10px 0 0px;
+}
+.story-card .btn{
+    font-size: 1.2rem;
+    border-radius: 40px;
+    margin-top: -600px;
+    margin-left:20px;
+}
+
+.story-cards .card-main{
+
+}
+.story-cards .card-main h2{
+    font-size: 1.7rem !important;
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+    padding: 0 20px;
+}
+.story-cards .card-main p{
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    color: #666666;
+    padding: 0 20px;
+}
+.btn-color-two{
+    background-color: #01ACFD;
+}
+
+.story-cards .story-card h2{
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.story-btn{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.story-btn-div{
+    text-align: center;
+}
