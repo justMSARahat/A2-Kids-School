@@ -87,7 +87,8 @@ main {
 
 /* Header CSS */
 header {}
-marquee{
+
+marquee {
     background-color: #FEA301;
     color: white;
     padding: 5px 0;
@@ -216,6 +217,9 @@ nav {
     border-radius: 50%;
     margin-left: 10px;
 }
+.btn-pasination i{
+    width: 20px;
+}
 
 .pagination {
     justify-content: center;
@@ -273,12 +277,13 @@ nav {
 }
 
 .story-card .btn {
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 40px;
     margin-left: 20px;
     position: absolute;
     left: 0;
-    top: 56%;
+    top: 58%;
+    padding: 10px 20px;
 }
 
 .card-main .btn {
@@ -406,6 +411,10 @@ footer {
         display: none;
     }
 
+    .logo h1 {
+        margin-left: 0;
+    }
+
     .btn-contact {
         display: none;
     }
@@ -427,13 +436,16 @@ footer {
         margin-top: 30px;
         text-align: center;
     }
-    .hero .content{
+
+    .hero .content {
         width: 80%;
     }
-    .hero .image{
+
+    .hero .image {
         text-align: center;
     }
-    .hero .image img{
+
+    .hero .image img {
         width: 90%;
         margin: auto;
     }
