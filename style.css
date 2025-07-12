@@ -1,291 +1,480 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 /* Reset some default styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
 }
-a{
-    text-decoration: none;;
+
+a {
+    text-decoration: none;
+    ;
 }
-li{
+
+li {
     list-style: none;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.justify-content{
+
+.justify-content {
     justify-content: center;
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-.justify-between{
+
+.justify-between {
     justify-content: space-between;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.max-width{
+
+.max-width {
     max-width: 1240px;
     margin: 0 auto;
 }
-.btn{
+
+.btn {
     padding: 10px 30px;
     color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FEA301;
 }
-.btn-secondary{
+
+.btn-secondary {
     background-color: black;
 }
-.color-1{
+
+.color-1 {
     color: #FEA301;
 }
-.color-2{
+
+.color-2 {
     color: #01ACFD;
 }
-.color-3{
+
+.color-3 {
     color: #05D4DF;
 }
-.color-4{
+
+.color-4 {
     color: #5D58EF;
 }
-main{
+
+.hide {
+    display: none;
+}
+
+main {
     background-image: url("./assets/bg.png");
 }
 
-/* Header CSS */
-header{
 
-}
-nav{
+
+
+/* Header CSS */
+header {}
+
+nav {
     padding-top: 20px;
 }
-.logo{
 
-}
-.logo img{
+.logo {}
+
+.logo img {
     height: 62px;
     width: 62px;
 }
-.logo h1{
-    font-size:2rem;
+
+.logo h1 {
+    font-size: 2rem;
     font-weight: 600;
-    margin-left:10px;
+    margin-left: 10px;
 }
-.navlink{
+
+.navlink {
     font-size: 1.2rem;
-    margin-left:40px;
+    margin-left: 40px;
     font-weight: 500;
 }
 
-.content{
+.content {
     max-width: 640px;
 }
-.hero-title{
+
+.hero-title {
     font-size: 3.9rem;
     margin-bottom: 24px;
 }
-.hero-p{
+
+.hero-p {
     font-size: 1.2rem;
     margin-bottom: 24px;
     font-weight: 300;
 }
+.hero{
+    margin-bottom: 80px;
+}
 
-.section-title{
-    font-size:2.5rem;
+.section-title {
+    font-size: 2.5rem;
     font-weight: 600;
     margin-top: 60px;
     margin-bottom: 80px;
     text-align: center;
 }
-.cards{
+
+.cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.card{
+
+.card {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5%;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
-.card-content{
+
+.card-content {
     margin-bottom: 60px;
 }
-.card-image{
+
+.card-image {
     width: 130px;
     height: 110px;
-    margin-top:60px;
+    margin-top: 60px;
 }
-.card-title{
+
+.card-title {
     font-size: 1.5rem;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.card-text{
+
+.card-text {
     font-size: 1rem;
     font-weight: 300;
     color: #808080;
     margin-bottom: 30px;
 }
-.card-1{
+
+.card-1 {
     background-image: linear-gradient(to bottom, #DEF5FF, #fff);
     border: #DEF5FF 1px solid;
 }
-.card-1 .card-link{
+
+.card-1 .card-link {
     color: #01ACFD;
 }
-.card-2{
+
+.card-2 {
     background-image: linear-gradient(to bottom, #FFF4DC, #fff);
     border: #FFF4DC 1px solid;
 }
-.card-1 .card-link{
+
+.card-1 .card-link {
     color: #F0AA00;
 }
-.card-3{
+
+.card-3 {
     background-image: linear-gradient(to bottom, #F2E8FF, #fff);
     border: #FFF4DC 1px solid;
 }
-.card-3 .card-link{
+
+.card-3 .card-link {
     color: #8700FF;
 }
-.pagination{
+
+.pagination {
     margin-top: 80px;
     margin-bottom: 60px;
 }
-.btn-pasination{
+
+.btn-pasination {
     padding: 10px;
     border-radius: 50%;
     margin-left: 10px;
 }
-.pagination{
+
+.pagination {
     justify-content: center;
 }
 
-.stories{
+.stories {
     background-image: linear-gradient(to bottom, #fff, rgba(254, 163, 1, 0.3));
 }
-.item-1{
+
+.item-1 {
     grid-area: one;
 }
-.item-2{
+
+.item-2 {
     grid-area: two;
 }
-.item-3{
+
+.item-3 {
     grid-area: three;
 }
-.item-4{
+
+.item-4 {
     grid-area: four;
 }
-.item-5{
+
+.item-5 {
     grid-area: five;
 }
 
-.story-cards{
+.story-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     grid-template-areas:
         "one two three"
         "one four five"
-    ;;
+    ;
+    ;
 }
-.story-card{
+
+.story-card {
     background-color: white;
     border-radius: 10px;
     flex: 1;
 }
-.story-card img{
+
+.story-card img {
     border-radius: 10px 10px 0 0px;
 }
-.story-card .btn{
+
+.story-card .btn {
     font-size: 1.2rem;
     border-radius: 40px;
     margin-top: -600px;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
-.story-cards .card-main{
+.story-cards .card-main {}
 
-}
-.story-cards .card-main h2{
+.story-cards .card-main h2 {
     font-size: 1.7rem !important;
     margin-top: 40px !important;
     margin-bottom: 30px !important;
     padding: 0 20px;
 }
-.story-cards .card-main p{
+
+.story-cards .card-main p {
     margin-bottom: 30px;
     font-size: 1.3rem;
     color: #666666;
     padding: 0 20px;
 }
-.btn-color-two{
+
+.btn-color-two {
     background-color: #01ACFD;
 }
 
-.story-cards .story-card h2{
+.story-cards .story-card h2 {
     font-size: 1rem;
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 0 20px;
 }
 
-.story-btn{
+.story-btn {
     margin-top: 80px;
     margin-bottom: 60px;
 }
-.story-btn-div{
+
+.story-btn-div {
     text-align: center;
 }
 
-footer{
+footer {
     background-color: #01ACFD;
 }
+
 .footer-content {
     padding-top: 120px;
     padding-bottom: 180px;
     color: white;
     align-items: start;
 }
-.footer-content .left img{
+
+.footer-content .left img {
     height: 82px;
     width: 82px;
 }
-.footer-content .left h1{
+
+.footer-content .left h1 {
     font-size: 1.9rem;
 }
-.footer-content .left p{
+
+.footer-content .left p {
     font-size: 1.1rem;
     color: #fff;
     margin-top: 35px;
     width: 400px;
     font-weight: 300;
 }
-.footer-content .middle h4{
+
+.footer-content .middle h4 {
     font-size: 1.4rem;
     font-weight: 500;
 }
-.footer-content .right h4{
+
+.footer-content .right h4 {
     font-size: 1.4rem;
     font-weight: 500;
 }
-.footer-content .middle ul li{
-    margin-top: 20px ;
+
+.footer-content .middle ul li {
+    margin-top: 20px;
 }
-.footer-content .middle ul li a{
+
+.footer-content .middle ul li a {
     color: white;
     font-size: 1rem;
-    margin-top: 20px ;
-}
-.footer-content .right img{
     margin-top: 20px;
+}
+
+.footer-content .right img {
+    margin-top: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    header {}
+
+    nav {
+        border-bottom: 1px solid #FEA301;
+        padding: 20px 40px;
+    }
+    .navlink {
+        display: none;
+    }
+    .btn-contact{
+        display: none;
+    }
+    .menu-bar{
+        display: inline;
+        width: 50px;
+    }
+
+    .content {
+        max-width: 550px;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero{
+        flex: column;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    .section-title{
+        margin-bottom: 30px;
+    }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        padding: 0 40px;
+    }
+
+    .pagination {
+        display: none;
+    }
+
+    .stories {
+        background-image: linear-gradient(to bottom, #fff, rgba(254, 163, 1, 0.3));
+    }
+
+    .item-1 {
+        grid-area: one;
+        display: none;
+    }
+
+    .item-2 {
+        grid-area: two;
+    }
+
+    .item-3 {
+        grid-area: three;
+    }
+
+    .item-4 {
+        grid-area: four;
+    }
+
+    .item-5 {
+        grid-area: five;
+    }
+
+    .story-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        grid-template-areas:
+            "two three"
+            "four five"
+        ;
+
+    }
+
+
+    footer {
+        background-color: #01ACFD;
+        padding-left: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .footer-content .left h1 {
+        font-size: 1.9rem;
+    }
+
+    .footer-content .left p {
+        font-size: 1.1rem;
+        color: #fff;
+        margin-top: 35px;
+        width: 400px;
+        font-weight: 300;
+    }
+
+    .footer-content .middle h4 {
+        margin-top: 30px;
+    }
+
+    .footer-content .right h4 {
+        margin-top: 30px;
+    }
+
+    .footer-content .middle ul li {
+        margin-top: 10px;
+    }
+
+    .footer-content .right img {
+        margin-top: 10px;
+    }
 }
