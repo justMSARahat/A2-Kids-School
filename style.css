@@ -57,6 +57,9 @@ li{
 .color-4{
     color: #5D58EF;
 }
+main{
+    background-image: url("./assets/bg.png");
+}
 
 /* Header CSS */
 header{
@@ -242,4 +245,47 @@ nav{
 }
 .story-btn-div{
     text-align: center;
+}
+
+footer{
+    background-color: #01ACFD;
+}
+.footer-content {
+    padding-top: 120px;
+    padding-bottom: 180px;
+    color: white;
+    align-items: start;
+}
+.footer-content .left img{
+    height: 82px;
+    width: 82px;
+}
+.footer-content .left h1{
+    font-size: 1.9rem;
+}
+.footer-content .left p{
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 35px;
+    width: 400px;
+    font-weight: 300;
+}
+.footer-content .middle h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.footer-content .right h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.footer-content .middle ul li{
+    margin-top: 20px ;
+}
+.footer-content .middle ul li a{
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px ;
+}
+.footer-content .right img{
+    margin-top: 20px;
 }
